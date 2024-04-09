@@ -1,44 +1,110 @@
 const questions = [
     {
         question:[
-            " chutney", //word
-            "(a relish of fruits and spices)", //definition
-            " You can eat chutney straight away, but it's best once the flavors mellow after a month or so of aging.",  //sentence
-            "Which definition best describes the word ‘chutney’?", //question
+            "Serene", //word
+            "Which sentence uses the word ‘chutney’ correctly?", //question
         ],
         answers: [
-            { text: " a kind of chimney", correct: false}, 
-            { text: "a basket used for fruits", correct: false},
-            { text: "a relish of fruits, spices, herbs and vinegar", correct: true},
-            { text: " a large amount of something", correct: false},
+            { text: "The bustling city was serene with activity.", correct: false}, 
+            { text: "The raging storm caused a serene atmosphere.", correct: false},
+            { text: "As she sat by the peaceful lake, she felt a sense of serenity wash over her.", correct: true},
+            { text: "Jane felt very serene when a rabid dog attacked her.", correct: false},
         ]
     },
 {
 question:[
-            " domineer", //word
-            "( to rule (over) in a harsh or arrogant way)", //definition
-            " The lions always domineer over other competing predators in the area.",  //sentence
-            "Which definition best describes the word ‘domineer’?", //question
+            "Inane", //word
+            "Which sentence uses the word ‘inane’ correctly?", //question
         ],
         answers: [
-            { text: "to have an adventure", correct: false}, 
-            { text: "to escape from", correct: false},
-            { text: "to observe from a far distance", correct: false},
-            { text: "tyrannize", correct: true},
+            { text: "The professor's lecture was inane, providing insightful information on the topic.", correct: false}, 
+            { text: "The inane novel delved into complex societal issues, leaving readers deeply moved.", correct: false},
+            { text: "The inane article provided insightful analysis on the current political climate.", correct: false},
+            { text: "The inane banter between the characters detracted from the seriousness of the film's plot.", correct: true},
         ]
     },
 {
         question:[
-            " estuary", //word
-            "( the wide mouth of a river into which the tide flows from the sea)", //definition
-            " There are huge concentrations of people on the great river estuaries.",  //sentence
-            "Which sentence uses the word ‘estuary’ appropriately?", //question
+            "Implore", //word
+            "Which sentence uses the word ‘implore’ correctly?", //question
         ],
         answers: [
-            { text: "A lot of crabs live in estuaries because there are lots of places to hide and feed.", correct: true}, 
-            { text: "Estuaries cost a lot of money because of its wide space.", correct: false},
-            { text: "My friend likes to eat estuaries because of its nutritional value.", correct: false},
-            { text: "There are few estuaries found in a lot of people, especially amongst children.", correct: false},
+            { text: "The mother implored the doctor to save her son's life, as he lay unconscious in the emergency room.", correct: true}, 
+            { text: "She implored him with a smile on her face, expressing her gratitude.", correct: false},
+            { text: "The student implored the teacher for an extension, having plenty of time to complete the assignment.", correct: false},
+            { text: "The team implored their coach for winning the game.", correct: false},
+        ]
+    },
+    {
+        question:[
+            "Prolific", //word
+            "Which sentence uses the word ‘prolific’ correctly?", //question
+        ],
+        answers: [
+            { text: "She was prolific on her writings, publishing very few books.", correct: false}, 
+            { text: "The author was prolific in her output, publishing several novels each year.", correct: true},
+            { text: "She was prolific in her in gardening, growing only few types of flowers.", correct: false},
+            { text: "He was a prolific of novels, writing a total of 3 books in his lifetime.", correct: false},
+        ]
+    },
+    {
+        question:[
+            "Opulent", //word
+            "Which sentence uses the word ‘opulent’ correctly?", //question
+        ],
+        answers: [
+            { text: "He lived in an opulent house, furnished with cheap decor.", correct: false}, 
+            { text: "The opulent palace, with its gilded walls and velvet curtains, was a symbol of extravagance and wealth.", correct: true},
+            { text: "The opulent, adorned with jewels, queen lived in palace.", correct: false},
+            { text: "The coach cheered for winning opulent game.", correct: false},
+        ]
+    },
+    {
+question:[
+            "Perplex", //word
+            "Which sentence uses the word ‘perplex’ correctly?", //question
+        ],
+        answers: [
+            { text: "The perplex student, unable to understand the concept, sought help from the teacher.", correct: false}, 
+            { text: "Perplexed by the straightforward instructions, he successfully assembled the furniture.", correct: false},
+            { text: "Her perplex expression indicated that she understood the situation perfectly.", correct: false},
+            { text: "The perplex situation, with its conflicting information, left everyone confused.", correct: true},
+        ]
+    },
+{
+        question:[
+            "Contemplate", //word
+            "Which sentence uses the word ‘contemplate’ correctly?", //question
+        ],
+        answers: [
+            { text: "Contemplate the stunning view, a sense of tranquility washed over him.", correct: false}, 
+            { text: "The contemplate man, lost in thought, pondered his next move.", correct: false},
+            { text: "While contemplating his future, he realized the importance of making thoughtful decisions.", correct: true},
+            { text: "Contemplate by the vastness of the universe, he felt small and insignificant.", correct: false},
+        ]
+    },
+    {
+question:[
+            "Aspire", //word
+            "Which sentence uses the word ‘aspire’ correctly?", //question
+        ],
+        answers: [
+            { text: "Aspiring to be a great leader, she dedicated herself to continuous self-improvement.", correct: true}, 
+            { text: "The aspire student, dreaming of success, worked tirelessly towards their goals.", correct: false},
+            { text: "Aspire by the achievements of her role models, she strived for greatness.", correct: false},
+            { text: "Aspired by the success of her peers, she worked hard to achieve her goals.", correct: false},
+        ]
+    },
+{
+        question:[
+            "Baleful", //word
+            "Which sentence uses the word ‘baleful’ correctly?", //question
+        ],
+        answers: [
+            { text: "The baleful nature of the storm, with its dark clouds, raged across the countryside.", correct: true}, 
+            { text: "Baleful of the consequences, he proceeded with caution.", correct: false},
+            { text: "Baleful with anger, he stormed out of the room.", correct: false},
+            { text: "The baleful of the situation, she felt a sense of dread.", correct: false},
         ]
     }
 ];
